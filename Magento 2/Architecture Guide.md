@@ -361,5 +361,11 @@ Magento will appreciate:
 
 * Clear organization of code predictably points extension developers to code location.
 
+# Presentation Layer
+
+## What is Magento Presentation layer? {#what-is-magento-presentation-layer}
+
+Interact with the Magento web interface =&gt; directly working with _presentation layer_ code.
+
 
 
