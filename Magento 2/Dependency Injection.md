@@ -26,21 +26,23 @@ Nói cách khác, trình biên dịch sẽ giúp tạo ra tất cả các class 
 
 ## Truyền value cho constructor arguments trong Magento 2
 
-```
-<type name="Magento\Checkout\Model\CompositeConfigProvider">
-    <arguments>
-        <argument name="configProviders" xsi:type="array">
-            <item name="checkout\_default\_config\_provider" xsi:type="object">Magento\Checkout\Model\DefaultConfigProvider<item>
-        <argument>
-    <arguments>
-</type>
-```
+    ```xml
+    <type name="Magento\Checkout\Model\CompositeConfigProvider">
+        <arguments>
+            <argument name="configProviders" xsi:type="array">
+                <item name="checkout\_default\_config\_provider" xsi:type="object">Magento\Checkout\Model\DefaultConfigProvider<item>
+            <argument>
+        <arguments>
+    </type>
+    ```
 
 configProviders chính là tên của argument array $configProviders trong:
 
-| `publicfunction__construct(array$configProviders) {$this->configProviders =$configProviders;}` |
-| :--- |
+\`\`\`php
 
+publicfunction\_\_construct\(array$configProviders\) {$this-&gt;configProviders =$configProviders;}
+
+\`\`\`
 
 Việc khai báo di.xml như trên tương đương với việc ta tạo đối tượng:
 
