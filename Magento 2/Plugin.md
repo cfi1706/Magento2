@@ -11,5 +11,39 @@ Plugins không thể được sử dụng trong các trường hợp sau đây:
 * \_\_construct
 * Virtual types
 
+**Cách khai báo một Plugin**
+
+Một plugin cho một class sẽ được khai báo trong file di.xml:
+
+&lt;config&gt;
+
+    &lt;type name="{ObservedType}"&gt;
+
+        &lt;plugin name="{pluginName}" type="{PluginClassName}" sortOrder="1" disabled="false"/&gt;
+
+    &lt;/type&gt;
+
+&lt;/config&gt;
+
+type: Một class hoặc interface mà các plugin quan sát.  
+Tên plugin: Tên cho plugin dùng để nhận dạng. Cũng được sử dụng để hợp nhất các file configuration cho các plugin.  
+Loại plugin. Tên class của một plugin hoặc virtual type của nó. Sử dụng quy ước đặt tên sau khi bạn xác định yếu tố này: \Vendor\Module\Plugin\Plugin.
+
+Các thành phần sau đây là tùy chọn:  
+sortOrder: Thứ tự mà các plugin  
+Disabled: Dùng để disable plugin. Giá trị mặc định là false
+
+### **Định nghĩa một plugin**
+
+Một plugin được sử dụng để mở rộng hoặc thay đổi hành vi của một function nào bằng cách áp dụng mã trước \(before\), sau \(after\) hoặc xung quanh \(around\):
+
+Đối số đầu tiên của plugin là một đối tượng cung cấp quyền truy cập vào tất cả các public function của class mà plugin quan sát.
+
+**Before methods**
+
+Bạn có thể sử dụng “Before” để thay đổi các tham số của một function được quan sát bằng cách trả lại một đối số đã được sửa đổi. Nếu có nhiều tham số, phương pháp này sẽ trả về một mảng các đối số. Return null sẽ chỉ ra rằng các đối số cho phương pháp quan sát không được sửa đổi.
+
+Phải có tiền tố “before”.
+
 
 
