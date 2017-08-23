@@ -65,9 +65,9 @@ Có thể sử dụng **$this-&gt;\_objectManager-&gt;create\(‘Magento\Catalog
 
 Factory cũng có thể được sử dụng cho cả interface
 
-```
-<preference for="Magento\CatalogInventory\Api\Data\StockItemInterface" type="Magento\CatalogInventory\Model\Stock\Item" />
-```
+    ```xml
+    <preference for="Magento\CatalogInventory\Api\Data\StockItemInterface" type="Magento\CatalogInventory\Model\Stock\Item" />
+    ```
 
 
 
