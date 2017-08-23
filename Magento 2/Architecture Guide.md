@@ -94,11 +94,23 @@ Designed to optimize storefront customization, with highly extensible themes bei
 
 1. ## Storefront customization tools {#storefront-customization-tools}
 
-Magento Blank Theme    
+#### Magento Blank Theme
 
-Magento UI Library Components
+#### Magento UI Library Components
 
-Magento Admin Pattern Library
+* enforce for consistency in design across your storefronts
+
+* simplify \(and speed up\) the design process
+
+#### Magento Admin Pattern Library
+
+User interface \(UI\) design patterns
+
+* address form
+* button bar
+* container
+* tabs
+* sign-in form
 
 
 
