@@ -389,5 +389,13 @@ Each theme resides in a unique directory and contains custom page layouts, templ
 
 Blocks can generate their content using static HTML, Knockout JS scripts, and PHTML.
 
+## How Presentation code calls other layers {#how-presentation-code-calls-other-layers}
+
+Presentation code typically calls service contracts.
+
+## Presentation layer flow {#presentation-layer-flow}
+
+Presentation layer components make calls to the Service layer, which in turn sends requests to the Domain \(or business logic\) layer.
+
 
 
