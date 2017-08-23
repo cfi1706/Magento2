@@ -38,11 +38,9 @@ Nói cách khác, trình biên dịch sẽ giúp tạo ra tất cả các class 
 
 configProviders chính là tên của argument array $configProviders trong:
 
-```````php````
-
-`publicfunction__construct(array$configProviders) {$this->configProviders =$configProviders;}`
-
-```````````
+    ```php
+    publicfunction__construct(array$configProviders) {$this->configProviders =$configProviders;}
+    ```
 
 Việc khai báo di.xml như trên tương đương với việc ta tạo đối tượng:
 
