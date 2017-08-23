@@ -543,3 +543,25 @@ A collection is a class that loads multiple models into an array-like structure 
 
 A simple resource model defines and interacts with a single table.
 
+## Magento components {#magento-components}
+
+# Module overview
+
+A module is a logical group – that is, a directory containing blocks, controllers, helpers, models – that are related to a specific business feature.
+
+## Module purpose {#module-purpose}
+
+Each module is designed to function independently, so the inclusion or exclusion of a particular module does not typically affect the functionality of other modules.
+
+## Module components {#module-components}
+
+Contains the PHP and XML files \(blocks, controllers, helpers, models\) that are related to a specific business feature.
+
+Magento module is composed of these software components: themes, libraries, and language packages.
+
+## Where do modules live? {#where-do-modules-live}
+
+Modules typically live in the `app/code` directory of a Magento installation, in a directory with the following PSR-0 compliant format: `app/code/<Vendor>/<ModuleName>.`
+
+
+
