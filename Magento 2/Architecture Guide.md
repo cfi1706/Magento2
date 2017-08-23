@@ -154,6 +154,10 @@ Web API \(REST or SOAP\) with some simple XML.
 
 ### Service contracts, dependency injection, and dependency inversion {#service-contracts-dependency-injection-and-dependency-inversion}
 
+Service contracts provide a new way to access public API endpoints.
+
+Magento implements dependency injection along with service contracts \(ease-of-extensibility, support the loose coupling\).
+
 ### Plug-ins {#plug-ins}
 
 
