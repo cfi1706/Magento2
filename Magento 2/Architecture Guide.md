@@ -8,23 +8,17 @@ A class is a template for an object, a user-defined datatype that contains varia
 
 **Method**
 
-
+An expression for a function bound to a class
 
 **Instance**
 
-
+Instance is an object \(datatype\) created by your class
 
 **Inheritance**
 
-
+Inheritance is a process in which a class inherits all the state and behavior of another class \(extend, implement\)
 
 **Abstraction**
 
-
-
 **Singleton**
-
-
-
-
 
