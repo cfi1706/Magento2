@@ -18,7 +18,13 @@ Class Proxy được sinh ra để chắc chắn rằng một instances của m�
 
 Proxy sẽ được tham chiếu trực tiếp trong cấu hình DI.
 
+Proxy kế thừa các class khác để trở thành một lazy-loaded của chúng.
+
+
+
 #### Interceptor
 
-Class Interceptor sẽ được tự động tạo ra để phục vụ cho cơ chế Plugin của Magento. Một class interceptor sẽ extend một class gốc và được trả về bởi Object Manager để cho phép các class có thể sử dụng nhiều plugin để thay đổi logic vào các method khác nhau.
+Class Interceptor sẽ được tự động tạo ra để phục vụ cho cơ chế Plugin của Magento. Một class interceptor sẽ extend một class gốc và được trả về bởi Object Manager để cho phép các class có thể sử dụng nhiều plugin để thay đổi logic vào các method khác nhau.
+
+Khi Magento gọi một class trong Magento, nó sẽ gọi vào class interceptor thay vì class gốc đó và gọi method tương ứng.
 
