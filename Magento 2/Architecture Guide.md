@@ -20,5 +20,7 @@ Inheritance is a process in which a class inherits all the state and behavior of
 
 **Abstraction**
 
+Abstraction refers to the act of representing essential features without including the background details or explanations. It reduces and factors out details so that one can focus on a few concepts at a time.
+
 **Singleton**
 
