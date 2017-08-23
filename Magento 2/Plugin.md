@@ -45,7 +45,7 @@ Một plugin được sử dụng để mở rộng hoặc thay đổi hành vi 
 
 Bạn có thể sử dụng “Before” để thay đổi các tham số của một function được quan sát bằng cách trả lại một đối số đã được sửa đổi. Nếu có nhiều tham số, phương pháp này sẽ trả về một mảng các đối số. Return null sẽ chỉ ra rằng các đối số cho phương pháp quan sát không được sửa đổi.
 
-Phải có tiền tố “before”.
+Phải có tiền tố "before".
 
 **After methods**
 
