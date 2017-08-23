@@ -184,5 +184,11 @@ Escape output for HTML pages \(HTML, JSON, and JavaScript\) and email.
 
 Using a [umask](http://www.cyberciti.biz/tips/understanding-linux-unix-umask-value-usage.html).
 
+## Improved prevention of clickjacking exploits {#improved-prevention-of-clickjacking-exploits}
+
+Using an X-Frame-Options HTTP request header \([X-Frame-Options header](http://devdocs.magento.com/guides/v2.1/config-guide/secy/secy-xframe.html)\).
+
+.
+
 
 
