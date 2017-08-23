@@ -26,17 +26,18 @@ Nói cách khác, trình biên dịch sẽ giúp tạo ra tất cả các class 
 
 ## Truyền value cho constructor arguments trong Magento 2
 
-&lt;type name="Magento\Checkout\Model\CompositeConfigProvider"&gt;
+```
+<type name="Magento\Checkout\Model\CompositeConfigProvider">
+&lt;arguments&gt;
 
-    &lt;arguments&gt;
+    &lt;argument name="configProviders" xsi:type="array"&gt;
 
-        &lt;argument name="configProviders" xsi:type="array"&gt;
+        &lt;item name="checkout\_default\_config\_provider" xsi:type="object"&gt;Magento\Checkout\Model\DefaultConfigProvider&lt;/item&gt;
 
-            &lt;item name="checkout\_default\_config\_provider" xsi:type="object"&gt;Magento\Checkout\Model\DefaultConfigProvider&lt;/item&gt;
+    &lt;/argument&gt;
 
-        &lt;/argument&gt;
-
-    &lt;/arguments&gt;
+&lt;/arguments&gt;
+```
 
 &lt;/type&gt;
 
@@ -53,6 +54,4 @@ Việc khai báo di.xml như trên tương đương với việc ta tạo đối
 ## Ưu điểm
 
 Dễ dàng thêm những tùy chỉnh vào bên trong luồng chạy của Magento thông qua cơ chế **MERGE di.xml**
-
-
 
