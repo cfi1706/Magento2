@@ -275,13 +275,11 @@ Allows use of different CSS tools or technologies not provided with Magento.
 
 Magento is _compatible with but not supported_ for:
 
-* HHVM 3.9 
-  PHP
-   interpreter
+* HHVM 3.9 PHP Interpreter
 
 ### Automated testing {#automated-testing}
 
-Provides automated testing suites that include unit, integration, functional and performance test scripts, as well as JavaScript tests and tools for static code analysis. 
+Provides automated testing suites that include unit, integration, functional and performance test scripts, as well as JavaScript tests and tools for static code analysis.
 
 Components include PHPUnit for the unit test framework and Selenium for the functional test framework.
 
