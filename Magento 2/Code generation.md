@@ -49,11 +49,13 @@ Khi một class đã được khởi tạo đối tượng rồi, lần sau khi 
 
 Khi sử dụng Factory, một instance mới của class đã được tạo ra.
 
-**Mục đích của Factory**
+**Mục đích của Factory**
 
-Tạo ra một instance của một class non-injectable hoặc interfaces.
+Tạo ra một instance của một class non-injectable hoặc interfaces.
 
-Factories được sử dụng để cô lập object manager từ logic code. Factories luôn được đặt tên giống hệt với class, với hậu tố Factory.
+Factories được sử dụng để cô lập object manager từ logic code. Factories luôn được đặt tên giống hệt với class, với hậu tố Factory.
+
+Là một loại class được tự động tạo ra. Đơn giản chỉ cần refer một tên class với Factory nối theo sau trong một constructor, và Magento tự động tạo ra các Factory class nếu nó không tồn tại.
 
 
 
