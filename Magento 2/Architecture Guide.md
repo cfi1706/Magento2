@@ -194,3 +194,13 @@ Default creates a random Admin URI when you install the product. The CLI is prov
 
 Prevent large-scale automated attacks.
 
+# Storefront customization strategies
+
+## Storefront customization levels {#storefront-customization-levels}
+
+### Extend Magento-Provided CSS {#extend-magento-provided-css}
+
+Default theme has a LESS-based CSS =&gt; change a storefront using CSS only.
+
+
+
