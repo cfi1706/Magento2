@@ -28,14 +28,13 @@ Nói cách khác, trình biên dịch sẽ giúp tạo ra tất cả các class 
 
 ```
 <type name="Magento\Checkout\Model\CompositeConfigProvider">
-<arguments>
-    <argument name="configProviders" xsi:type="array">
-        <item name="checkout\_default\_config\_provider" xsi:type="object">Magento\Checkout\Model\DefaultConfigProvider<item>
-    <argument>
-<arguments>
+    <arguments>
+        <argument name="configProviders" xsi:type="array">
+            <item name="checkout\_default\_config\_provider" xsi:type="object">Magento\Checkout\Model\DefaultConfigProvider<item>
+        <argument>
+    <arguments>
+</type>
 ```
-
-&lt;/type&gt;
 
 configProviders chính là tên của argument array $configProviders trong:
 
