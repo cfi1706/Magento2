@@ -182,7 +182,7 @@ Escape output for HTML pages \(HTML, JSON, and JavaScript\) and email.
 
 ## More flexible file system ownership and permissions {#more-flexible-file-system-ownership-and-permissions}
 
-
+Using a [umask](http://www.cyberciti.biz/tips/understanding-linux-unix-umask-value-usage.html).
 
 
 
