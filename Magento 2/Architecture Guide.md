@@ -160,5 +160,15 @@ Magento implements dependency injection along with service contracts \(ease-of-e
 
 ### Plug-ins {#plug-ins}
 
+Mechanism for adding features to the core Magento product.
+
+Make changes to the behavior of any public method in a Magento class.
+
+Interceptors.
+
+Applications use the plug-in pattern to change method behavior without modifying the actual class. Plug-ins can typically intercept method processing before or after the method runs, or only when the method throws an exception.
+
+.
+
 
 
