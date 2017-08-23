@@ -202,5 +202,86 @@ Prevent large-scale automated attacks.
 
 Default theme has a LESS-based CSS =&gt; change a storefront using CSS only.
 
+### Replace PHTML template files {#replace-phtml-template-files}
 
+Generate different HTML markup.
+
+### Replace Magento-Provided CSS {#replace-magento-provided-css}
+
+Allows use of different CSS tools or technologies not provided with Magento.
+
+### Replace Magento-Provided CSS, HTML, and JavaScript {#replace-magento-provided-css-html-and-javascript}
+
+# Architectural diagrams
+
+## Magento architecture from different perspectives {#m2arch-whatis-overview}
+
+## Architecture layers diagram {#archi-layers}
+
+![](/assets/import.png)
+
+# Technology stack
+
+### Web servers {#web-servers}
+
+* Apache
+* nginx
+
+### PHP {#php}
+
+* Composer
+   \(dependency management package for PHP\)
+
+### Database {#database}
+
+* MySQL
+* MySQL Percona
+
+### HTTP accelerator {#http-accelerator}
+
+* Varnish
+
+### Cache Storage {#cache-storage}
+
+* Redis
+* Memcache
+
+### Search {#search}
+
+* Solr \(Magento Enterprise Edition only\)
+* Elasticsearch \(Magento Enterprise Edition version 2.1.x only\)
+
+### Additional technologies {#additional-technologies}
+
+* HTML5
+* CSS3 \(LESS 
+  CSS
+   pre-processor\)
+* jQuery
+   \(primary 
+  JavaScript
+   library\)
+* RequireJS \(library that helps load JavaScript resources on demand\)
+* Knockout.js \(simplifies JavaScript UIs with the Model-View-View Model pattern\)
+* Third-party libraries \(Zend Framework 1, Zend Framework 2, Symfony\)
+* Coding standards PSR-0 \(autoloading standard\), PSR-1 \(basic coding standards\), and PSR-2 \(coding style guide\), PSR-3, PSR-4
+
+### Optional stack components {#optional-stack-components}
+
+* Varnish \(caching\)
+* Redis \(used for page caching\)
+* Solr \(search engine\)
+* Elasticsearch \(search engine\)
+
+Magento is _compatible with but not supported_ for:
+
+* HHVM 3.9 
+  PHP
+   interpreter
+
+### Automated testing {#automated-testing}
+
+Provides automated testing suites that include unit, integration, functional and performance test scripts, as well as JavaScript tests and tools for static code analysis. 
+
+Components include PHPUnit for the unit test framework and Selenium for the functional test framework.
 
