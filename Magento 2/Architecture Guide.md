@@ -409,5 +409,9 @@ Two categories:
 
 * Dynamic view files are view files that are processed or executed by the server in order to provide result to the client. These are: .less files, templates, layouts .
 
+Magento supports multi theme model.
+
+## Control {#control}
+
 
 
