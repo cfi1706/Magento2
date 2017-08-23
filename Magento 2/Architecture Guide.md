@@ -397,5 +397,17 @@ Presentation code typically calls service contracts.
 
 Presentation layer components make calls to the Service layer, which in turn sends requests to the Domain \(or business logic\) layer.
 
+# Magento Themes
+
+Magento application provides two design themes: Luma, as a demonstration theme, and Blank as a basis for custom theme creation.
+
+All theme files are stored under `app/design/<area>/<Vendor>/<theme>/.`
+
+Two categories:
+
+* Static view files are a set of theme files that are returned by the server to a browser as is, without any processing, are called the static files of a theme.
+
+* Dynamic view files are view files that are processed or executed by the server in order to provide result to the client. These are: .less files, templates, layouts .
+
 
 
