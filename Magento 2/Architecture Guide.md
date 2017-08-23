@@ -24,3 +24,5 @@ Abstraction refers to the act of representing essential features without includi
 
 **Singleton**
 
+Singleton restricts the instantiation of a class to one object.
+
