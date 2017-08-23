@@ -419,9 +419,9 @@ Themes do not include business logic.
 
 ## Theme components {#theme-components}
 
-* Layout:  layoutXML files. This defines which template file to load.
+* Layout:  layoutXML files. This defines which template file to load.
 
-* Template: template files which are generally .phtml files.
+* Template: template files which are generally .phtml files.
 
 * Skin: static files like images, css and js.
 
@@ -431,7 +431,7 @@ Themes do not include business logic.
 
 ### Process flow {#process-flow}
 
-Your Custom Package » Default Package » Base Package » Error Message
+Your Custom Package » Default Package » Base Package » Error Message
 
 The system searches in the ancestor themes, module view files or library
 
@@ -444,6 +444,32 @@ Two categories:
 * Static view files. These theme files are returned by the server to a browser as is, without any processing, and are called the static files of a theme.
 
 * Dynamic view files. View files that are processed or executed by the server in order to provide result to the client. These are: .less files, templates, layouts
+
+### Where do themes live? {#where-do-themes-live}
+
+Each theme resides in a unique directory
+
+Two different directories:
+
+* /skin/frontend: contains images and CSS for a theme.
+
+* /app/design/frontend: contains page templates and layouts
+
+# Service layer
+
+## What is a Service layer? {#what-is-a-service-layer}
+
+The service layer provides a bridge between the presentation layer and the model layer of domain logic and resource-specific data. This is implemented using _service contracts_, which are defined using PHP interfaces.
+
+In general, the service layer:
+
+* Resides below the presentation layer and above the domain layer.
+
+* Contains service contracts, which define how the implementation will behave.
+
+* Provides an easy way to access the REST/SOAP API framework code \(which also resides above the service contracts\). You can bind service contracts to web service APIs in configuration files — no coding required.
+
+* Provides a stable API for other modules to call into.
 
 
 
