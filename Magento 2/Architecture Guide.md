@@ -413,5 +413,37 @@ Magento supports multi theme model.
 
 ## Control {#control}
 
+Includes CSS, images, design/UI- specific Javascript 2\) also control many functional aspects of site. Layouts control which default blocks/modules are available Templates control which data is shown and how
+
+Themes do not include business logic.
+
+## Theme components {#theme-components}
+
+* Layout:  layoutXML files. This defines which template file to load.
+
+* Template: template files which are generally .phtml files.
+
+* Skin: static files like images, css and js.
+
+* Locale: language related file. This will be used when you want to make your theme compatible with different languages.
+
+## Theme process flow {#theme-process-flow}
+
+### Process flow {#process-flow}
+
+Your Custom Package » Default Package » Base Package » Error Message
+
+The system searches in the ancestor themes, module view files or library
+
+* page templates
+* block templates
+* layouts
+
+Two categories:
+
+* Static view files. These theme files are returned by the server to a browser as is, without any processing, and are called the static files of a theme.
+
+* Dynamic view files. View files that are processed or executed by the server in order to provide result to the client. These are: .less files, templates, layouts
+
 
 
