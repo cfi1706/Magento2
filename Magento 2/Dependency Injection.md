@@ -26,7 +26,7 @@ Nói cách khác, trình biên dịch sẽ giúp tạo ra tất cả các class 
 
 ## Truyền value cho constructor arguments trong Magento 2
 
-    ```xml
+```xml
     <type name="Magento\Checkout\Model\CompositeConfigProvider">
         <arguments>
             <argument name="configProviders" xsi:type="array">
@@ -34,15 +34,15 @@ Nói cách khác, trình biên dịch sẽ giúp tạo ra tất cả các class 
             <argument>
         <arguments>
     </type>
-    ```
+```
 
 configProviders chính là tên của argument array $configProviders trong:
 
-\`\`\`php
+```````php````
 
-publicfunction\_\_construct\(array$configProviders\) {$this-&gt;configProviders =$configProviders;}
+`publicfunction__construct(array$configProviders) {$this->configProviders =$configProviders;}`
 
-\`\`\`
+```````````
 
 Việc khai báo di.xml như trên tương đương với việc ta tạo đối tượng:
 
