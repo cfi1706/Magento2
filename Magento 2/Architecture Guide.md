@@ -32,5 +32,19 @@ Magento tweaks the classic Model-View-Controller architectural model, though: fi
 
 The _Magento Framework_ defines the fundamental concepts and rules for how the components of the web site can behave.
 
+## Integration with architectural layers {#integration-with-architectural-layers}
+
+### Presentation layer {#presentation-layer}
+
+View components \(layouts, blocks, templates\) and controllers.
+
+Include web API service bindings.
+
+### Service layer {#service-layer}
+
+
+
+### Domain layer {#domain-layer}
+
 
 
