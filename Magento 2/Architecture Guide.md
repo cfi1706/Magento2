@@ -471,5 +471,35 @@ In general, the service layer:
 
 * Provides a stable API for other modules to call into.
 
+## Who accesses the service layer? {#who-accesses-the-service-layer}
+
+Service contract clients include:
+
+* Controllers \(initiated by actions of users of the storefront\)
+
+* Web services \(SOAP and REST API calls\)
+
+* Other Magento modules through service contracts
+
+## Service contract anatomy {#service-contract-anatomy}
+
+The service contract of a module is defined by the set of interfaces in the module’s `/Api`. It typically consists of:
+
+* service interfaces in the `/Api`namespace of the module
+
+* data \(or _entity_\) interfaces in the `Api/Data` directory. _Data entities_ are data structures passed to and returned from service interfaces.
+
+Typically, service contracts provide three distinct types of interfaces:
+
+* Repository interfaces
+
+* Management interfaces
+
+* Metadata interfaces
+
+## Advantages of service contracts {#advantages-of-service-contracts}
+
+Permit you to add a new customer extension that adds or changes business logic-level resource models and models without breaking the system. How? Through the use of the &lt;preference&gt; element of a dependency injection config file \(di.xml\) file. The di.xml file specifies which PHP class to use for the interface Magento\Customer\Api\CustomerRepositoryInterface.
+
 
 
