@@ -168,7 +168,59 @@ Interceptors.
 
 Applications use the plug-in pattern to change method behavior without modifying the actual class. Plug-ins can typically intercept method processing before or after the method runs, or only when the method throws an exception.
 
+# Security
+
+## Enhanced password management {#enhanced-password-management}
+
+Hashing algorithms \(SHA-256\)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .
-
-
 
