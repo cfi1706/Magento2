@@ -563,5 +563,5 @@ Magento module is composed of these software components: themes, libraries, and 
 
 Modules typically live in the `app/code` directory of a Magento installation, in a directory with the following PSR-0 compliant format: `app/code/<Vendor>/<ModuleName>.`
 
-
+Find all the code related to this module, including the `etc/module.xml` file, which contains the name and version of the module.
 
