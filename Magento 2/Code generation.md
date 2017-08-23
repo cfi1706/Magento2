@@ -41,5 +41,9 @@ Proxy là code được sinh ra và do đó không cần phải được viết 
 
 Class SlowLoading sẽ không được khởi tạo, do đó, các xử lí phức tạp gây tốn tài nguyên ở trong constructor sẽ không được thực hiện cho đến khi các đối tượng SlowLoading được sử dụng \(có nghĩa là, nếu phương thức getSlowValue được gọi\).
 
+### Factory Pattern
+
+
+
 
 
