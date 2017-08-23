@@ -78,7 +78,13 @@ Replacing or extending core code rather than editing.
 
 Uses Composer to manage dependencies.
 
+#### Coding standards
 
+Zend Framework Coding Standards for PHP
 
+**http://devdocs.magento.com/guides/v2.0/coding-standards/bk-coding-standards.html**
 
+#### Upgrade and versioning strategies
+
+Well-defined upgrade and versioning strategies that can help you avoid any problems with software component dependencies.
 
