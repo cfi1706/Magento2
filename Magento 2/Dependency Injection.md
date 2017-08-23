@@ -24,5 +24,35 @@ Một công cụ trình biên dịch code sẽ thu thập tất cả các thông
 
 Nói cách khác, trình biên dịch sẽ giúp tạo ra tất cả các class dependency không tồn tại \(proxy, factory và interceptor\) được khai báo trong code. Ta có thể thấy các class đó trong thư mục **var/generation**.
 
+## Truyền value cho constructor arguments trong Magento 2
+
+&lt;type name="Magento\Checkout\Model\CompositeConfigProvider"&gt;
+
+    &lt;arguments&gt;
+
+        &lt;argument name="configProviders" xsi:type="array"&gt;
+
+            &lt;item name="checkout\_default\_config\_provider" xsi:type="object"&gt;Magento\Checkout\Model\DefaultConfigProvider&lt;/item&gt;
+
+        &lt;/argument&gt;
+
+    &lt;/arguments&gt;
+
+&lt;/type&gt;
+
+configProviders chính là tên của argument array $configProviders trong:
+
+| `publicfunction__construct(array$configProviders) {$this->configProviders =$configProviders;}` |
+| :--- |
+
+
+Việc khai báo di.xml như trên tương đương với việc ta tạo đối tương:
+
+`$composite = new CompositeConfigProvider(array('checkout_default_config_provider' =>'Magento\Checkout\Model\DefaultConfigProvider'))`
+
+## Ưu điểm
+
+Dễ dàng thêm những tùy chỉnh vào bên trong luồng chạy của Magento thông qua cơ chế **MERGE di.xml**
+
 
 
