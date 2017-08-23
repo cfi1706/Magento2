@@ -188,7 +188,9 @@ Using a [umask](http://www.cyberciti.biz/tips/understanding-linux-unix-umask-val
 
 Using an X-Frame-Options HTTP request header \([X-Frame-Options header](http://devdocs.magento.com/guides/v2.1/config-guide/secy/secy-xframe.html)\).
 
-.
+## Use of non-default Magento Admin URL {#use-of-non-default-magento-admin-url}
+
+
 
 
 
