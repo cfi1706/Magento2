@@ -48,3 +48,13 @@ Defines the overall interface for interacting with business logic. Service contr
 
 Referred to as the Business Logic layer, provides business logic and functionality in base classes, resource models, and data access capabilities that you can extend and customize.
 
+## Ease of extensibility {#m2arch-extensibility}
+
+Use dependency injection and service contracts to simplify the process of supplying a new implementation of a defined API.
+
+## Modularity {#m2arch-modularity}
+
+Extend the core feature set of Magento by writing and incorporating new modules into your installation. Use Magento themes and language packages to create your store’s visual design and language capabilities.
+
+
+
