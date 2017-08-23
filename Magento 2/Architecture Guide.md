@@ -349,5 +349,17 @@ The `x.y.z` numbers will change according to Semantic Versioning policy provisio
 
 # Architectural layers overview
 
+## Magento as layered software {#magento-as-layered-software}
+
+Pattern-Oriented Software Architecture
+
+## Advantages of layered application design {#advantages-of-layered-application-design}
+
+Magento will appreciate:
+
+* Stringent separation of business logic from presentation logic simplifies the customization process. For example, you can alter your storefront appearance without affecting any of the backend business logic.
+
+* Clear organization of code predictably points extension developers to code location.
+
 
 
