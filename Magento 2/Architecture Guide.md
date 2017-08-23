@@ -190,7 +190,7 @@ Using an X-Frame-Options HTTP request header \([X-Frame-Options header](http://d
 
 ## Use of non-default Magento Admin URL {#use-of-non-default-magento-admin-url}
 
+Default creates a random Admin URI when you install the product. The CLI is provided so that you can see the password if you forget it.
 
-
-
+Prevent large-scale automated attacks.
 
