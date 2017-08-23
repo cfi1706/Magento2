@@ -82,9 +82,23 @@ Uses Composer to manage dependencies.
 
 Zend Framework Coding Standards for PHP
 
-**http://devdocs.magento.com/guides/v2.0/coding-standards/bk-coding-standards.html**
+[http://devdocs.magento.com/guides/v2.0/coding-standards/bk-coding-standards.html](http://devdocs.magento.com/guides/v2.0/coding-standards/bk-coding-standards.html)
 
 #### Upgrade and versioning strategies
 
 Well-defined upgrade and versioning strategies that can help you avoid any problems with software component dependencies.
+
+# Ease of frontend customization
+
+Designed to optimize storefront customization, with highly extensible themes being the central customization mechanism.
+
+1. ## Storefront customization tools {#storefront-customization-tools}
+
+Magento Blank Theme    
+
+Magento UI Library Components
+
+Magento Admin Pattern Library
+
+
 
