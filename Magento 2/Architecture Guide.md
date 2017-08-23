@@ -146,6 +146,8 @@ Attribute types fall into three general categories:
 
 ### Web APIs {#web-apis}
 
+Web API \(REST or SOAP\) with some simple XML.
+
 ### Service contracts, dependency injection, and dependency inversion {#service-contracts-dependency-injection-and-dependency-inversion}
 
 ### Plug-ins {#plug-ins}
