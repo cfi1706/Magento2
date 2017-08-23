@@ -51,13 +51,11 @@ Phải có tiền tố “before”.
 
 Những phương pháp này có thể được sử dụng để sửa đổi các kết quả của một function được quan sát và bắt buộc phải có một giá trị trả về.
 
-Phải có tiền tố “a
+Phải có tiền tố "after"
 
 **Around methods**
 
 Around methods được định nghĩa là code có thể chạy cả trước và cả sau của function được quan sát. Điều này cho phép bạn ghi đè hoàn toàn lên fuction đó.
 
-Phải có tiền tố là “around”.fter”.
-
-
+Phải có tiền tố là "around".
 
