@@ -47,9 +47,9 @@ $this->configProviders =$configProviders;
 
 Việc khai báo di.xml như trên tương đương với việc ta tạo đối tượng:
 
-    ```php
-    $composite = new CompositeConfigProvider(array('checkout_default_config_provider'=>'Magento\Checkout\Model\DefaultConfigProvider'))
-    ```
+```php
+$composite = new CompositeConfigProvider(array('checkout_default_config_provider'=>'Magento\Checkout\Model\DefaultConfigProvider'))
+```
 
 ## Ưu điểm
 
