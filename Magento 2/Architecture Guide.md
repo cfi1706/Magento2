@@ -367,5 +367,27 @@ Magento will appreciate:
 
 Interact with the Magento web interface =&gt; directly working with _presentation layer_ code.
 
+The presentation layer contains both view elements \(layouts, blocks, templates\) and controllers.
+
+Three types of Magento:
+
+* **Web users** interact with the store front, where they can see the View model of data displayed by Magento and interact with product UI elements to request data for view and manipulation. These users work within the \(`frontend`\) area.
+
+* **System administrators** customizing a storefront can indirectly manipulate the presentation layer by, for example, adding themes or widgets to the front end.
+
+* **Web API calls** can be made through HTTP just like browser requests, and can be made via AJAX calls from the user interface.
+
+## Presentation layer components {#presentation-layer-components}
+
+Each theme resides in a unique directory and contains custom page layouts, templates, skins, and language files.
+
+## View model {#view-model}
+
+* **Blocks** can generate dynamic content and can contain named child view elements that are similar to arguments being passed in. \(The `as` attribute holds the child view element names for the parent block to reference them\)
+
+* **Containers** collect an ordered group of children view elements.
+
+Blocks can generate their content using static HTML, Knockout JS scripts, and PHTML.
+
 
 
