@@ -45,7 +45,7 @@ configProviders chính là tên của argument array $configProviders trong:
 
 Việc khai báo di.xml như trên tương đương với việc ta tạo đối tương:
 
-$composite = new CompositeConfigProvider\(array\('checkout\_default\_config\_provider' =&gt;'Magento\Checkout\Model\DefaultConfigProvider'\)\)
+`$composite = new CompositeConfigProvider(array('checkout_default_config_provider'=>'Magento\Checkout\Model\DefaultConfigProvider'))`
 
 ## Ưu điểm
 
