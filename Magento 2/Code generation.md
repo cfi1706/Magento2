@@ -43,9 +43,17 @@ Class SlowLoading sẽ không được khởi tạo, do đó, các xử lí ph�
 
 ### Factory Pattern
 
-Sử dụng constructor injection, nghĩa là khai báo class trong hàm construct. Đối tượng thu được theo cách này \(sử dụng các class injection\) là một mẫu singleton, nghĩa là cùng một instance luôn luôn được trả về bởi Object Manager khi class được yêu cầu.
+Sử dụng constructor injection, nghĩa là khai báo class trong hàm construct. Đối tượng thu được theo cách này \(sử dụng các class injection\) là một mẫu singleton, nghĩa là cùng một instance luôn luôn được trả về bởi Object Manager khi class được yêu cầu.
 
 Khi một class đã được khởi tạo đối tượng rồi, lần sau khi ta gọi lại, vẫn cùng một instance được trả về chứ sẽ không sinh ra một instance mới.
+
+Khi sử dụng Factory, một instance mới của class đã được tạo ra.
+
+**Mục đích của Factory**
+
+Tạo ra một instance của một class non-injectable hoặc interfaces.
+
+Factories được sử dụng để cô lập object manager từ logic code. Factories luôn được đặt tên giống hệt với class, với hậu tố Factory.
 
 
 
