@@ -56,5 +56,13 @@ Use dependency injection and service contracts to simplify the process of supply
 
 Extend the core feature set of Magento by writing and incorporating new modules into your installation. Use Magento themes and language packages to create your store’s visual design and language capabilities.
 
+## Highly customizable store branding {#m2arch-store-branding}
+
+Extend and customize the core components of your Magento store’s PHP-, HTML5- and CSS3- based default themes and language packages to precisely control your site’s behavior and look-and-feel.
+
+## Strong stack of open-source technologies {#m2arch-open-source-stack}
+
+Includes popular open-source technologies such as the Linux OS, Apache/Nginx server, MySQL, Zend, and Composer.
+
 
 
