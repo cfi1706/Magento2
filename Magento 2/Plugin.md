@@ -2,14 +2,14 @@
 
 Plugins không thể được sử dụng trong các trường hợp sau đây:
 
-**– Đối tượng được khởi tạo trước Magento\Framework\Interception**  
-**– Final methods**  
-**– Final classes**  
-**– Bất kì class nào có chứa ít nhất một final public method.**  
-**– Method không phải public**  
-**– Class methods \(ví dụ static methods\)**  
-**\_\_construct**  
-**– Virtual types**
+* Đối tượng được khởi tạo trước Magento\Framework\Interception
+* Final methods
+* Final classes
+* Bất kì class nào có chứa ít nhất một final public method.
+* Method không phải public
+* Class methods \(ví dụ static methods\)
+* \_\_construct
+* Virtual types
 
 
 
