@@ -283,3 +283,71 @@ Provides automated testing suites that include unit, integration, functional and
 
 Components include PHPUnit for the unit test framework and Selenium for the functional test framework.
 
+# Backward compatibility
+
+Magento 2.0 uses Semantic Versioning 2.0.0 to indicate whether a change breaks backward compatibility.
+
+* _MAJOR_ indicates incompatible API changes
+
+* _MINOR_ indicates backward-compatible functionality has been added
+
+* _PATCH_ indicates backward-compatible bug fixes
+
+The backward compatibility policy applies to PHP code annotated with `@api.`
+
+# Versioning policy
+
+Magento software versioning complies with the following specifications:
+
+* [Semantic Versioning 2.0.0](http://semver.org/)
+
+* [Versioning specification of Composer system](https://getcomposer.org/doc/04-schema.md#version)
+
+* [PHP version\_compare\(\)](http://php.net/version_compare)
+
+## Version formats {#version-formats}
+
+The pre-release version format is: MAJOR.MINOR.PATCH-&lt;alpha \| beta \| rc&gt;n, where alpha, beta or rc are stability indications, as described in the version\_compare\(\) specification, and n is an increment number to distinguish releases of the non-stable versions.
+
+## Public APIs {#public-apis}
+
+This designation indicates the code can be used or customized by other components, such as formal interfaces and dependency injection points.
+
+## Where versioning is used {#where-versioning-is-used}
+
+Magento component or bundle, inside the `composer.json` file.
+
+It can be declared as the version of the component:
+
+```
+"name":"acme/foo",
+"version":1.2.0
+```
+
+Or it can be used to declare a dependency on a particular version of a component:
+
+```
+"require":{
+"acme/foo":"1.2.*",
+"acme/bar":"2.2.0"
+}
+```
+
+## Release types {#release-types}
+
+This section describes how exactly and when the software version numbers will be changed with releases.
+
+### Development releases {#development-releases}
+
+Magento may update the `x.y.z` version in way perscribed by Semantic Versioning, but also could release the same `x.y.z` with different stability and/or index numbers.
+
+### Stable releases {#stable-releases}
+
+In every stable release, the same value of version number will be propagated in all components, but dependencies will have a wildcard \(\*\) pattern.
+
+The `x.y.z` numbers will change according to Semantic Versioning policy provisions. For example, `1.0.0 -> 1.0.1 -> 1.1.0 -> 1.5.0 -> 1.5.1 -> 2.0.0 -> 2.1.0`.
+
+# Architectural layers overview
+
+
+
