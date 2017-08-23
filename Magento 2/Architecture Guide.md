@@ -531,5 +531,15 @@ Three primary ways of accessing a module’s domain-layer code:
 
   * `di.xml` files \(with an SPI contract\)
 
+# Persistence layer
 
+A resource model is responsible for performing functions such as:
+
+* Executing all CRUD \(create, read, update, delete\) requests. The resource model contains the SQL code for completing these requests.
+
+* Performing additional business logic. For example, a resource model could perform data validation, start processes before or after data is saved, or perform other database operations.
+
+A collection is a class that loads multiple models into an array-like structure based on a set of rules. This is similar to a SQL `WHERE` clause.
+
+A simple resource model defines and interacts with a single table.
 
