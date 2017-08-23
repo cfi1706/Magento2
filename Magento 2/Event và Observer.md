@@ -20,5 +20,16 @@ Vị trí của các file khai báo quan sát event sẽ nằm trong thư mục/
 
 **Observer và subscribe event**
 
+Observer là thành phần dùng để bắt event và xử lý chúng.
+
+Để quan sát một events, chúng ta sẽ viết trong file events.xml:
+
+File đó gồm những thuộc tính sau:
+
+* Name \(bắt buộc\) – Tên của observer
+* instance \(bắt buộc\) – tên đầy đủ của class observer
+* disabled – Xác định xem observer này có được kích hoạt hay không. Mặc định sẽ là false.
+* shared – Có shared hay không, mặc định là false.
+
 
 
