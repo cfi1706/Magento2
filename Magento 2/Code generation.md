@@ -55,7 +55,9 @@ Tạo ra một instance của một class non-injectable hoặc interfaces.
 
 Factories được sử dụng để cô lập object manager từ logic code. Factories luôn được đặt tên giống hệt với class, với hậu tố Factory.
 
-Là một loại class được tự động tạo ra. Đơn giản chỉ cần refer một tên class với Factory nối theo sau trong một constructor, và Magento tự động tạo ra các Factory class nếu nó không tồn tại.
+Là một loại class được tự động tạo ra. Đơn giản chỉ cần refer một tên class với Factory nối theo sau trong một constructor, và Magento tự động tạo ra các Factory class nếu nó không tồn tại.
 
+Class Factory được tạo ra trong thư mục **var/generation.**
 
+Khi chúng ta khởi tạo Factory, bản chất là chúng ta đã gọi hàm create của objectManager. Và Object Magager sẽ khởi tạo một instance mới cho class đó.
 
