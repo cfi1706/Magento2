@@ -61,3 +61,9 @@ Class Factory được tạo ra trong thư mục **var/generation.**
 
 Khi chúng ta khởi tạo Factory, bản chất là chúng ta đã gọi hàm create của objectManager. Và Object Magager sẽ khởi tạo một instance mới cho class đó.
 
+Có thể sử dụng **$this-&gt;\_objectManager-&gt;create\(‘Magento\Catalog\Model\Product’\)** thay cho Factory.
+
+Factory cũng có thể được sử dụng cho cả interface
+
+&lt;preference for="Magento\CatalogInventory\Api\Data\StockItemInterface" type="Magento\CatalogInventory\Model\Stock\Item" /&gt;
+
