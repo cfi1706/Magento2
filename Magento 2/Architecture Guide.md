@@ -42,9 +42,9 @@ Include web API service bindings.
 
 ### Service layer {#service-layer}
 
-
-
 ### Domain layer {#domain-layer}
+
+Referred to as the Business Logic layer, provides business logic and functionality in base classes, resource models, and data access capabilities that you can extend and customize.
 
 
 
