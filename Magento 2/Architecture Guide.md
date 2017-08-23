@@ -174,53 +174,15 @@ Applications use the plug-in pattern to change method behavior without modifying
 
 Hashing algorithms \(SHA-256\)
 
+## Improved prevention of cross-site scripting \(XSS\) attacks by making escaped data the default {#improved-prevention-of-cross-site-scripting-xss-attacks-by-making-escaped-data-the-default}
+
+Adopted conventions that regulate the escaping of data in output.
+
+Escape output for HTML pages \(HTML, JSON, and JavaScript\) and email.
+
+## More flexible file system ownership and permissions {#more-flexible-file-system-ownership-and-permissions}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.
 
