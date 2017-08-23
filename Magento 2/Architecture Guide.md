@@ -112,5 +112,7 @@ User interface \(UI\) design patterns
 * tabs
 * sign-in form
 
+Built on the LESS preprocessor and implemented as a module.
+
 
 
