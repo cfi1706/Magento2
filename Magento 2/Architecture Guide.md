@@ -134,6 +134,16 @@ Many modules and themes available for download and to buy modules and theme pack
 
 ### Flexible attribute types {#flexible-attribute-types}
 
+Enhance your storefront by adding unique attributes to the default product attributes.
+
+Attribute types fall into three general categories:
+
+* **EAV \(Entity-Attribute-Value\) attributes** are site-specific attributes that you can define for a local site using the Magento Admin.
+
+* **Custom attributes** are a subset of EAV attributes. Objects that use EAV attributes typically store values in several MySQL tables. The Customer and Catalog modules use EAV attributes.
+
+* **Extension attributes** often use more complex data types than custom attributes. These attributes do not appear in the storefront. Extension attributes are introduced by modules.
+
 ### Web APIs {#web-apis}
 
 ### Service contracts, dependency injection, and dependency inversion {#service-contracts-dependency-injection-and-dependency-inversion}
