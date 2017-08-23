@@ -126,7 +126,11 @@ Model-View-Controller \(MVC\)
 
 ### Coding standards {#coding-standards}
 
+Based on Zend Framework Coding Standards.
+
 ### Rich product ecosystem {#rich-product-ecosystem}
+
+Many modules and themes available for download and to buy modules and theme packages.
 
 ### Flexible attribute types {#flexible-attribute-types}
 
