@@ -92,7 +92,7 @@ Well-defined upgrade and versioning strategies that can help you avoid any probl
 
 Designed to optimize storefront customization, with highly extensible themes being the central customization mechanism.
 
-1. ## Storefront customization tools {#storefront-customization-tools}
+## Storefront customization tools {#storefront-customization-tools}
 
 #### Magento Blank Theme
 
@@ -113,6 +113,28 @@ User interface \(UI\) design patterns
 * sign-in form
 
 Built on the LESS preprocessor and implemented as a module.
+
+# Global features that support extensibility
+
+### Modularity {#modularity}
+
+This loose coupling of software components reduces the ripple effects throughout your code base of changing code.
+
+### Reliance on popular design patterns {#reliance-on-popular-design-patterns}
+
+Model-View-Controller \(MVC\)
+
+### Coding standards {#coding-standards}
+
+### Rich product ecosystem {#rich-product-ecosystem}
+
+### Flexible attribute types {#flexible-attribute-types}
+
+### Web APIs {#web-apis}
+
+### Service contracts, dependency injection, and dependency inversion {#service-contracts-dependency-injection-and-dependency-inversion}
+
+### Plug-ins {#plug-ins}
 
 
 
