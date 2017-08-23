@@ -64,5 +64,21 @@ Extend and customize the core components of your Magento store’s PHP-, HTML5- 
 
 Includes popular open-source technologies such as the Linux OS, Apache/Nginx server, MySQL, Zend, and Composer.
 
+# Architectural basics overview
+
+### Extensibility and modularity
+
+Designed from its earliest stages for customization and enhancement.
+
+#### Architectural principles that guide product structure
+
+Replacing or extending core code rather than editing.
+
+#### Open-source software to create and manage extensions
+
+Uses Composer to manage dependencies.
+
+
+
 
 
