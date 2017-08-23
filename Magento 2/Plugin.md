@@ -15,13 +15,13 @@ Plugins không thể được sử dụng trong các trường hợp sau đây:
 
 Một plugin cho một class sẽ được khai báo trong file di.xml:
 
-```
-<config>
-    <type name="{ObservedType}">
-        <plugin name="{pluginName}" type="{PluginClassName}" sortOrder="1" disabled="false">
-    <type>
-</config>
-```
+    ```php
+    <config>
+        <type name="{ObservedType}">
+            <plugin name="{pluginName}" type="{PluginClassName}" sortOrder="1" disabled="false">
+        <type>
+    </config>
+    ```
 
 type: Một class hoặc interface mà các plugin quan sát.  
 Tên plugin: Tên cho plugin dùng để nhận dạng. Cũng được sử dụng để hợp nhất các file configuration cho các plugin.  
