@@ -1050,3 +1050,13 @@ Dependency injection with Magento 2:
 
 Cannot use the `Mage::getModel()` like Magento 1.
 
+Change the "setup\_version" to "1.0.2"
+
+Launch the upgrade command:
+
+```xml
+sudo php bin/magento setup:upgrade
+```
+
+"Setup\InstallData.php" =&gt; launched at the first module upgrade.
+
