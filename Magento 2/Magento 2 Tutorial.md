@@ -250,11 +250,28 @@ name is very important and must be composed with :
 
 &lt;Router Name&gt;\_&lt;Controller Name&gt;\_&lt;Action Name&gt;
 
-The layout names of these URL are :
+The layout names of these URL are :
 
 `helloworld_index_index`
 
 Create file:
 
 `app/code/Test/Helloworld/view/frontend/layout/helloworld_say_hello.xml`
+
+```xml
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd"
+      layout="2columns-right">
+    <body>
+        <referenceContainer name="content">
+            <block class="Test\Helloworld\Block\Hello" name="hello" template="helloworld.phtml">
+            </block>
+        </referenceContainer>
+    </body>
+</page>
+
+```
+
+
 
