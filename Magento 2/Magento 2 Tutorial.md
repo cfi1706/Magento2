@@ -8,12 +8,8 @@ System &gt; Tools &gt; Cache Management
 
 app/etc/env.php
 
-\`\`\`xml
-
-`SetEnv MAGE_MODE "developer"`
-
-```
-
+```xml
+SetEnv MAGE_MODE "developer"
 ```
 
 
