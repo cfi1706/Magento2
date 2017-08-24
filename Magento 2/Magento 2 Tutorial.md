@@ -832,5 +832,26 @@ Create file:
 
 `app/code/Test/Jobs/Model/ResourceModel/Department/Collection.php`
 
+```php
+namespace Test\Jobs\Model\ResourceModel\Department;
+
+use \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
+
+class Collection extends AbstractCollection
+{
+    protected $_idFieldName = \Test\Jobs\Model\Department::DEPARTMENT_ID;
+
+    /**
+     * Define resource model
+     *
+     * @return void
+     */
+    protected function _construct()
+    {
+        $this->_init('Test\Jobs\Model\Department', 'Test\Jobs\Model\ResourceModel\Department');
+    }
+}
+```
+
 
 
