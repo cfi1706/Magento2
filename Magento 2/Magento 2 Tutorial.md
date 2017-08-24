@@ -664,5 +664,11 @@ Launch the upgrade command:
 sudo php bin/magento setup:upgrade
 ```
 
+# Create a model with Magento 2
+
+## Models declaration
+
+
+
 
 
