@@ -1046,8 +1046,7 @@ Dependency injection with Magento 2:
         $this->_department = $department;
         $this->_job = $job;
     }
-    
 ```
 
-
+Cannot use the `php Mage::getModel()` like Magento 1.
 
