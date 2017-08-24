@@ -609,5 +609,11 @@ class UpgradeSchema implements UpgradeSchemaInterface
 }
 ```
 
+Compare the old module version with the new module version :
+
+```php
+if (version_compare($context->getVersion(), '1.0.1') < 0)
+```
+
 
 
