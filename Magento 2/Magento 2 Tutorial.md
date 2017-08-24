@@ -1062,7 +1062,26 @@ sudo php bin/magento setup:upgrade
 
 # Admin menu creation and access control list managment \(ACL\) on Magento 2
 
+## Add menu in backoffice – On existing section
 
+Create file
+
+`app/code/Test/Jobs/etc/adminhtml/menu.xml`
+
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Test_Jobs::job_head" title="Jobs" module="Test_Jobs" sortOrder="100"
+             parent="Magento_Backend::content" resource="Test_Jobs::job_head"/>
+        <add id="Test_Jobs::department" title="Departments" module="Test_Jobs" sortOrder="10"
+             parent="Test_Jobs::job_head" action="jobs/department" resource="Test_Jobs::job"/>
+        <add id="Test_Jobs::job" title="Jobs" module="Test_Jobs" sortOrder="20" parent="Test_Jobs::job_head"
+             action="jobs/job" resource="Test_Jobs::job"/>
+    </menu>
+</config>
+```
 
 
 
