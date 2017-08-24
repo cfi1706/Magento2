@@ -32,5 +32,9 @@ vhost:
 </VirtualHost>
 ```
 
+restart apache :
+
+`sudo service apache2 restart`
+
 
 
