@@ -853,5 +853,11 @@ class Collection extends AbstractCollection
 }
 ```
 
+"init" method has got two paramaters:
+
+- The model path
+
+- The ResourceModel path
+
 
 
