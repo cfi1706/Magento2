@@ -1048,5 +1048,5 @@ Dependency injection with Magento 2:
     }
 ```
 
-Cannot use the `php Mage::getModel()` like Magento 1.
+Cannot use the `Mage::getModel()` like Magento 1.
 
