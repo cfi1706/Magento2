@@ -6,9 +6,7 @@ System &gt; Tools &gt; Cache Management
 
 ## Server Configuration
 
-apache vhost :
+app/etc/env.php
 
 `SetEnv MAGE_MODE "developer"`
-
-
 
