@@ -286,8 +286,7 @@ Create the file
 <h2>HelloWorld</h2>
 <p>Congratulations ! You have created your first Magento Module !</p>
 <p>The block classname is : <?php echo get_class($block) ?></p>
-
 ```
 
-
+Delete cache + var/generation folder and refresh page
 
