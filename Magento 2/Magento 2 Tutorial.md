@@ -884,5 +884,11 @@ class Collection extends AbstractCollection
 }
 ```
 
+Create Model have 3 file:
+
+* Model file: A.php
+* ResourceModel file: ResourceModel\A.php
+* Collection file: ResourceModel\A\Collection.php
+
 
 
