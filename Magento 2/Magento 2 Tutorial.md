@@ -231,3 +231,9 @@ class Index extends \Magento\Framework\App\Action\Action
 
 =&gt; Show template
 
+## Block creation
+
+Create the file `app/code/Test/Helloworld/Block/Hello.php`
+
+
+
