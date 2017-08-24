@@ -668,7 +668,7 @@ sudo php bin/magento setup:upgrade
 
 ## Models declaration
 
+Create the file :
 
-
-
+`app/code/Test/Jobs/Model/Department.php`
 
