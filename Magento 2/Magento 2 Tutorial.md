@@ -628,27 +628,27 @@ public function upgrade(SchemaSetupInterface $setup, ModuleContextInterface $con
     {
         $installer = $setup;
         $installer->startSetup();
- 
+
         if (version_compare($context->getVersion(), '1.0.0') < 0) {
             // Action to do if module version is less than 1.0.0
         }
- 
+
         if (version_compare($context->getVersion(), '1.0.1') < 0) {
             // Action to do if module version is less than 1.0.1
         }
- 
+
         if (version_compare($context->getVersion(), '1.1.0') < 0) {
             // Action to do if module version is less than 1.1.0
         }
- 
+
         if (version_compare($context->getVersion(), '1.1.1') < 0) {
             // Action to do if module version is less than 1.1.1
         }
- 
+
         if (version_compare($context->getVersion(), '2.0.0') < 0) {
             // Action to do if module version is less than 2.0.0
         }
- 
+
         $installer->endSetup();
     }
 ```
@@ -659,4 +659,10 @@ Edit file :
 Change `setup_version` attribute to `1.0.1`
 
 Launch the upgrade command:
+
+```xml
+sudo php bin/magento setup:upgrade
+```
+
+
 
