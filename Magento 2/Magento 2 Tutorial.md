@@ -793,9 +793,11 @@ class Department extends AbstractDb
 
 Two parameters:
 
-- Table name
+* Table name
 
-- Primary column’s name
+* Primary column’s name
 
+Create file:
 
+`app/code/Test/Jobs/Model/ResourceModel/Job.php`
 
