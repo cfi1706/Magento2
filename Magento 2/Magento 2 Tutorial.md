@@ -138,5 +138,26 @@ return array (
 );
 ```
 
+# Create Magento 2 frontend controller
+
+## Router declaration
+
+Create a XML file: 
+
+app/code/Test/Helloworld/etc/frontend/routes.xml
+
+```xml
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="helloworld" frontName="helloworld">
+            <module name="Test_Helloworld" before="Magento_Core" after="Magento_Sales"/>
+        </route>
+    </router>
+</config>
+
+```
+
 
 
