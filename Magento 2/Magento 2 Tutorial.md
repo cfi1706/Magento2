@@ -282,3 +282,12 @@ Create the file
 
 `app/code/Maxime/Helloworld/view/frontend/templates/helloworld.phtml`
 
+```php
+<h2>HelloWorld</h2>
+<p>Congratulations ! You have created your first Magento Module !</p>
+<p>The block classname is : <?php echo get_class($block) ?></p>
+
+```
+
+
+
