@@ -290,3 +290,9 @@ Create the file
 
 Delete cache + var/generation folder and refresh page
 
+sudo php bin/magento cache:flush
+
+sudo rm -rf var/generation/
+
+
+
