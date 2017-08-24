@@ -824,8 +824,13 @@ class Job extends AbstractDb
     }
 
 }
-
 ```
+
+## Collections class creation
+
+Create file:
+
+`app/code/Test/Jobs/Model/ResourceModel/Department/Collection.php`
 
 
 
