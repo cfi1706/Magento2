@@ -319,8 +319,13 @@ Create the file :
     'Test_Jobs',
     __DIR__
 );
-
 ```
+
+## Installation setup creation
+
+Create file :
+
+`app/code/Test/Jobs/Setup/InstallSchema.php`
 
 
 
