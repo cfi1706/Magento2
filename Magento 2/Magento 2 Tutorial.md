@@ -240,8 +240,21 @@ namespace Test\Helloworld\Block;
 class Hello extends \Magento\Framework\View\Element\Template
 {
 }
-
 ```
 
+## Layout creation
 
+Associate routes and block
+
+name is very important and must be composed with :
+
+&lt;Router Name&gt;\_&lt;Controller Name&gt;\_&lt;Action Name&gt;
+
+The layout names of these URL are :
+
+`helloworld_index_index`
+
+Create file:
+
+`app/code/Test/Helloworld/view/frontend/layout/helloworld_say_hello.xml`
 
