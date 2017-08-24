@@ -91,7 +91,5 @@ Create Module in **"app/code": **`app/code/Test/Helloworld/`
 * Test: namespace
 * Helloworld: module name
 
-
-
-
+Create config module:  etc/module.xml
 
