@@ -167,5 +167,22 @@ app/code/Test/Helloworld/etc/frontend/routes.xml
 * after : your module have to be called after the module defined inside
 * Note: "before" et "after" fields are NOT required
 
+## Controller creation
+
+app/code/Test/Helloworld/Controller/Index/Index.php
+
+```php
+namespace Test\Helloworld\Controller\Index;
+class Index extends \Magento\Framework\App\Action\Action
+{
+    public function execute()
+    {
+        echo 'Execute Action Index_Index OK';
+        die();
+    }
+}
+
+```
+
 
 
