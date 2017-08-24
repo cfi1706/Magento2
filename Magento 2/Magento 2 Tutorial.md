@@ -432,25 +432,25 @@ class InstallSchema implements InstallSchemaInterface
 }
 ```
 
-– A name: $tableName
+- A name: $tableName
 
-– A table comment: $tableComment
+- A table comment: $tableComment
 
-– Table columns with their type, their size, some options and a comment
+- Table columns with their type, their size, some options and a comment
 
-– Some indexes: $indexes
+- Some indexes: $indexes
 
-– Some foreign keys: $foreignKeys
+- Some foreign keys: $foreignKeys
 
 Available columns options :
 
-– identity: an auto\_increment column
+- identity: an auto\_increment column
 
-– unsigned: unsigned number
+- unsigned: unsigned number
 
-– nullable: when it false, it add "NOT NULL" SQL to the column
+- nullable: when it false, it add "NOT NULL" SQL to the column
 
-– primary: primary key
+- primary: primary key
 
-– default: default value for our column
+- default: default value for our column
 
