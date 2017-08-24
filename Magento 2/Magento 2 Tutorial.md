@@ -270,13 +270,12 @@ Create file:
         </referenceContainer>
     </body>
 </page>
+
 ```
 
 ## Template creation
 
-Create the file 
+Create the file
 
 `app/code/Maxime/Helloworld/view/frontend/templates/helloworld.phtml`
-
-
 
