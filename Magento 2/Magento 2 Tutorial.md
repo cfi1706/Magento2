@@ -459,7 +459,6 @@ Launch the upgrade
 ```xml
 sudo php bin/magento setup:upgrade
 
-
 ```
 
 
