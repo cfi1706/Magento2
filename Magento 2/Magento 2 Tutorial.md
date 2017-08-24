@@ -1060,3 +1060,9 @@ sudo php bin/magento setup:upgrade
 
 "Setup\InstallData.php" =&gt; launched at the first module upgrade.
 
+# Admin menu creation and access control list managment \(ACL\) on Magento 2
+
+
+
+
+
