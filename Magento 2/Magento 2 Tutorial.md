@@ -138,6 +138,10 @@ return array (
 );
 ```
 
+# Uninstall module
+
+sudo php bin/magento module:uninstall &lt;module name&gt;
+
 # Create Magento 2 frontend controller
 
 ## Router declaration
@@ -183,12 +187,8 @@ class Index extends \Magento\Framework\App\Action\Action
 }
 ```
 
-
-
 * `namespace` is the path of your controller inside the `app/code` folder.
-* `class `name is the name of your PHP file.
+* `class`name is the name of your PHP file.
 
 
-
- 
 
