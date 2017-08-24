@@ -121,6 +121,21 @@ Run update module:
 
 ```xml
 sudo php bin/magento setup:upgrade
+```
+
+## Module Activation
+
+Check list module and status in `app/etc/config.php`
+
+```php
+return array (
+  'modules' => 
+  array (
+  	...
+    'Test_Helloworld' => 1,
+    ...
+  ),
+);
 
 ```
 
