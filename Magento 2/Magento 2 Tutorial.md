@@ -233,7 +233,15 @@ class Index extends \Magento\Framework\App\Action\Action
 
 ## Block creation
 
-Create the file `app/code/Test/Helloworld/Block/Hello.php`
+Create the file `app/code/Test/Helloworld/Block/Hello.php`
+
+```php
+namespace Test\Helloworld\Block;
+class Hello extends \Magento\Framework\View\Element\Template
+{
+}
+
+```
 
 
 
