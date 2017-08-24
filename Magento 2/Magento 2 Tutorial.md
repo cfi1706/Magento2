@@ -621,5 +621,42 @@ if (version_compare($context->getVersion(), '1.0.1') < 0)
 
 * version\_compare retourne 1 if current version is greater than new version
 
+For each module upgrades, you have to put this condition on this file, like this:
 
+```php
+public function upgrade(SchemaSetupInterface $setup, ModuleContextInterface $context)
+    {
+        $installer = $setup;
+        $installer->startSetup();
+ 
+        if (version_compare($context->getVersion(), '1.0.0') < 0) {
+            // Action to do if module version is less than 1.0.0
+        }
+ 
+        if (version_compare($context->getVersion(), '1.0.1') < 0) {
+            // Action to do if module version is less than 1.0.1
+        }
+ 
+        if (version_compare($context->getVersion(), '1.1.0') < 0) {
+            // Action to do if module version is less than 1.1.0
+        }
+ 
+        if (version_compare($context->getVersion(), '1.1.1') < 0) {
+            // Action to do if module version is less than 1.1.1
+        }
+ 
+        if (version_compare($context->getVersion(), '2.0.0') < 0) {
+            // Action to do if module version is less than 2.0.0
+        }
+ 
+        $installer->endSetup();
+    }
+```
+
+Edit file :  
+`app/code/Test/Jobs/etc/module.xml`
+
+Change `setup_version` attribute to `1.0.1`
+
+Launch the upgrade command:
 
