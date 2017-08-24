@@ -801,3 +801,30 @@ Create file:
 
 `app/code/Test/Jobs/Model/ResourceModel/Job.php`
 
+```php
+namespace Test\Jobs\Model\ResourceModel;
+
+use \Magento\Framework\Model\ResourceModel\Db\AbstractDb;
+
+/**
+ * Department post mysql resource
+ */
+class Job extends AbstractDb
+{
+
+    /**
+     * Initialize resource model
+     *
+     * @return void
+     */
+    protected function _construct()
+    {
+        // Table Name and Primary Key column
+        $this->_init('test_job', 'entity_id');
+    }
+
+}
+```
+
+
+
