@@ -117,6 +117,11 @@ Create a "**registration.php**" file on the root folder of module
 );
 ```
 
+Run update module:
+
+```xml
+sudo php bin/magento setup:upgrade
+
 ```
 
 
