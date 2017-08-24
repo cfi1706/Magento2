@@ -615,5 +615,11 @@ Compare the old module version with the new module version :
 if (version_compare($context->getVersion(), '1.0.1') < 0)
 ```
 
+- version\_compare return -1 if current version is less than new version
+
+- version\_compare retourne 0 if current version is equal new version
+
+- version\_compare retourne 1 if current version is greater than new version
+
 
 
