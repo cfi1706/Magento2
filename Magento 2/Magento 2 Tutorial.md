@@ -101,5 +101,23 @@ Create config module:  etc/module.xml
 </config>
 ```
 
+* name: module name
+* setup\_version: module version
+* active: status of module \(true/false\)
+
+## Module registration
+
+Create a "**registration.php**" file on the root folder of module
+
+```php
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    'Test_Helloworld',
+    __DIR__
+);
+```
+
+```
+
 
 
