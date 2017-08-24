@@ -256,7 +256,7 @@ The layout names of these URL are :
 
 Create file:
 
-`app/code/Test/Helloworld/view/frontend/layout/helloworld_say_hello.xml`
+`app/code/Test/Helloworld/view/frontend/layout/helloworld_index_index.xml`
 
 ```xml
 <?xml version="1.0"?>
@@ -293,6 +293,4 @@ Delete cache + var/generation folder and refresh page
 sudo php bin/magento cache:flush
 
 sudo rm -rf var/generation/
-
-
 
