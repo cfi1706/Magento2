@@ -200,13 +200,35 @@ Our previous URL is very simple :
 
 `http://magento2.local/helloworld`
 
- But Magento 2 convert it to :
+But Magento 2 convert it to :
 
 `http://magento2.local/helloworld/index/index`
 
-- The first "index" is the folder "Index" inside "Controller".
+* The first "index" is the folder "Index" inside "Controller".
 
-- The second "index" is the file "Index.php" on the "Index" folder.
+* The second "index" is the file "Index.php" on the "Index" folder.
+
+# Create simple module with Magento 2
+
+## Controller modification
+
+Change content file:
+
+`app/code/Test/Helloworld/Controller/Index/Index.php`
+
+```php
+namespace Test\Helloworld\Controller\Index;
+class Index extends \Magento\Framework\App\Action\Action
+{
+    public function execute()
+    {
+        $this->_view->loadLayout();
+        $this->_view->getLayout()->initMessages();
+        $this->_view->renderLayout();
+    }
+}
+
+```
 
 
 
