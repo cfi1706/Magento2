@@ -142,7 +142,7 @@ return array (
 
 ## Router declaration
 
-Create a XML file: 
+Create a XML file:
 
 app/code/Test/Helloworld/etc/frontend/routes.xml
 
@@ -156,8 +156,12 @@ app/code/Test/Helloworld/etc/frontend/routes.xml
         </route>
     </router>
 </config>
-
 ```
 
+* `id="standard": frontend controller`
+* `id="admin": admin controller`
+* id : unique identifier for your router
+* frontName : the string which be used on the front URL
+* 
 
 
