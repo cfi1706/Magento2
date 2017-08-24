@@ -310,5 +310,8 @@ Create this XML file:
 </config>
 ```
 
+Create the file :  
+`app/code/Test/Jobs/registration.php`
+
 
 
