@@ -909,5 +909,7 @@ Open the file and add 2 methods:
     }
 ```
 
+Create the file :
 
+`app/code/Test/Jobs/Setup/UpgradeData.php`
 
