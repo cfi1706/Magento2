@@ -138,6 +138,10 @@ return array (
 );
 ```
 
+Check table: setup\_module
+
+![](/assets/setup_module.png)
+
 # Uninstall module
 
 sudo php bin/magento module:uninstall &lt;module name&gt;
@@ -189,6 +193,20 @@ class Index extends \Magento\Framework\App\Action\Action
 
 * `namespace` is the path of your controller inside the `app/code` folder.
 * `class`name is the name of your PHP file.
+
+## Customize URL
+
+Our previous URL is very simple :
+
+`http://magento2.local/helloworld`
+
+ But Magento 2 convert it to :
+
+`http://magento2.local/helloworld/index/index`
+
+- The first "index" is the folder "Index" inside "Controller".
+
+- The second "index" is the file "Index.php" on the "Index" folder.
 
 
 
