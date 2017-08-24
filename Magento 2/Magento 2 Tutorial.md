@@ -294,3 +294,13 @@ sudo php bin/magento cache:flush
 
 sudo rm -rf var/generation/
 
+# Setup management on Magento 2
+
+## Module declaration
+
+Create this XML file:
+
+`app/code/Test/Jobs/etc/module.xml`
+
+
+
