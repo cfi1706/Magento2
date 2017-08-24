@@ -57,3 +57,34 @@ Retart apache
 
 `sudo service apache2 restart`
 
+Change Magento mode:
+
+* Show mode:
+
+```xml
+magento deploy:mode:show
+```
+
+* Change mode:
+
+```xml
+magento deploy:mode:set {mode} [-s|--skip-compilation]
+```
+
+* List mode:
+  * default
+  * production
+  * developer
+
+Cannot currently change from either developer or production mode to default mode.
+
+If change production mode to developer mode, delete the contents of the `var/generation` and `var/di` directories:
+
+```xml
+rm -rf <your Magento install dir>/var/di/* <your Magento install dir>/var/generation/* 
+
+
+```
+
+
+
