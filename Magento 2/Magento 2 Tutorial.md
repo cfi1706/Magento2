@@ -229,5 +229,5 @@ class Index extends \Magento\Framework\App\Action\Action
 }
 ```
 
-=&gt; Show content with template
+=&gt; Show template
 
