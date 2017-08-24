@@ -2,7 +2,7 @@
 
 ## Disables caches
 
-System &gt; Tools &gt; Cache Management
+System &gt; Tools &gt; Cache Management &gt; Disables caches
 
 ## Server Configuration
 
