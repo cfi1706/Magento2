@@ -890,5 +890,24 @@ Create Model have 3 file:
 * ResourceModel file: ResourceModel\A.php
 * Collection file: ResourceModel\A\Collection.php
 
+# Module datas setup with Magento 2
+
+## Datas setup
+
+Open the file and add 2 methods:  
+`app/code/Test/Jobs/Model/Job.php`
+
+```php
+    public function getEnableStatus()
+    {
+        return 1;
+    }
+
+    public function getDisableStatus()
+    {
+        return 0;
+    }
+```
+
 
 
