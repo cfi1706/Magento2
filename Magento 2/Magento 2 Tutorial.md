@@ -181,8 +181,14 @@ class Index extends \Magento\Framework\App\Action\Action
         die();
     }
 }
-
 ```
 
 
+
+* `namespace` is the path of your controller inside the `app/code` folder.
+* `class `name is the name of your PHP file.
+
+
+
+ 
 
