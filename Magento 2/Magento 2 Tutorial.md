@@ -270,8 +270,11 @@ Create file:
         </referenceContainer>
     </body>
 </page>
-
 ```
+
+* class: block file
+* template: template file
+* name: alias name, using to call getChildHTML\(\),...
 
 ## Template creation
 
