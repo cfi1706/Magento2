@@ -131,12 +131,11 @@ Check list module and status in `app/etc/config.php`
 return array (
   'modules' => 
   array (
-  	...
+    ...
     'Test_Helloworld' => 1,
     ...
   ),
 );
-
 ```
 
 
