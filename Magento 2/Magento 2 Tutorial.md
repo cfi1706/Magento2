@@ -760,5 +760,11 @@ class Job extends AbstractModel
 }
 ```
 
+## ResourceModels declaration
+
+Create file :
+
+`app/code/Test/Jobs/Model/ResourceModel/Department.php`
+
 
 
