@@ -81,10 +81,17 @@ Cannot currently change from either developer or production mode to default mode
 If change production mode to developer mode, delete the contents of the `var/generation` and `var/di` directories:
 
 ```xml
-rm -rf <your Magento install dir>/var/di/* <your Magento install dir>/var/generation/* 
-
-
+rm -rf <your Magento install dir>/var/di/* <your Magento install dir>/var/generation/*
 ```
+
+# Declare a new Magento 2 module
+
+Create Module in **"app/code": **`app/code/Test/Helloworld/`
+
+* Test: namespace
+* Helloworld: module name
+
+
 
 
 
