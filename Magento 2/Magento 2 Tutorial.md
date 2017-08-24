@@ -458,8 +458,13 @@ Launch the upgrade
 
 ```xml
 sudo php bin/magento setup:upgrade
-
 ```
+
+## Upgrade Setup Creation
+
+Create the file :
+
+`app/code/Test/Jobs/Setup/UpgradeSchema.php`
 
 
 
