@@ -313,5 +313,14 @@ Create this XML file:
 Create the file :  
 `app/code/Test/Jobs/registration.php`
 
+```php
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    'Test_Jobs',
+    __DIR__
+);
+
+```
+
 
 
