@@ -791,5 +791,11 @@ class Department extends AbstractDb
 }
 ```
 
+Two parameters:
+
+- Table name
+
+- Primary column’s name
+
 
 
