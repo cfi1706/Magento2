@@ -44,6 +44,10 @@ restart apache :
 
 php.ini:
 
+/etc/php/7.0/apache2/php.ini
+
+/etc/php/7.0/fpm/php.ini
+
 ```xml
 error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT
 display_errors = On
@@ -52,6 +56,4 @@ display_errors = On
 Retart apache
 
 `sudo service apache2 restart`
-
-
 
