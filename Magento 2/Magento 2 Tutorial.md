@@ -162,6 +162,10 @@ app/code/Test/Helloworld/etc/frontend/routes.xml
 * `id="admin": admin controller`
 * id : unique identifier for your router
 * frontName : the string which be used on the front URL
-* 
+* name : module name to call
+* before : your module have to be called before the module defined inside
+* after : your module have to be called after the module defined inside
+* Note: "before" et "after" fields are NOT required
+
 
 
